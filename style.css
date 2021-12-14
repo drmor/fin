@@ -1,0 +1,166 @@
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+img{
+	border-radius: 5px;
+}
+.padding{
+	padding: 20px;
+}
+.bg{
+	background: #1b5ab3;
+	padding: 10px;
+}
+.outro{
+	bottom: 0px;
+	color: white;
+	font-family: Arial;
+	padding: 50px;
+	background: #083759;
+}
+.bg2{
+	background: #303340;
+}
+.logo{
+	margin-left: 10%;
+}
+.menu{
+	font-size: 40px;
+	margin-left: 3%;
+}
+.w{
+	font-family: arial;
+	color: white;
+}
+.red_str{
+	margin-left: 10%;
+}
+.w:hover{
+	background: #4682B4;
+}
+.com{
+	margin-left: auto;
+	margin-right: auto;
+}
+.h{
+	font-size: 20px;
+	font-family: arial;
+}
+.text,
+input[type="checkbox"]{
+	display: none;
+	position: absolute;
+	margin-top: 3%;
+	margin-left: -30%;
+}
+input[type="checkbox"]:checked ~ .text{
+	display: block;
+}
+.btn:hover{
+	transition: 0.2s;
+	transform: scale(1.05, 1.05);
+}
+.btn2:hover{
+	transition: 0.2s;
+	transform: scale(1.05, 1.05);
+}
+.btn{
+	color: #1b5ab3;
+	display: inline-block;
+	margin-bottom: 4px;
+	padding: 10px 16px;
+	border-radius: 5px;
+	border: 1px solid #1b5ab3;
+	cursor: pointer;
+}
+.btn2{
+	color: white;
+	display: inline-block;
+	margin-bottom: -1%;
+	padding:  10px 16px;
+	background: #1b5ab3;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.topO{
+	font-size: 25px;
+	border-spacing: 10px 20px;
+	border-collapse: separate;
+	margin-top: 3%;
+}
+.top{
+	margin-top: 3%;
+}
+.top1{
+	margin-top: 3%;
+}
+.top_s{
+	background: #f7fbff;
+	margin-top: 3%;
+}
+table{
+	border-collapse: collapse;
+}
+#left{
+	margin-left: -1%;
+}
+.blog:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.shadow{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.shadow1{
+	margin-top: 5%;
+	box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+.shadow1:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	transition: 0.3s;
+}
+.sticky{
+	padding: 20px;
+	background: #f0f6ff;
+	position: fixed;
+}
+.num{
+	text-align: center;
+	font-family: arial;
+}
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top: 50%;
+}
+ 
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.overlay h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 70px;
+    margin-top:17%;
+}
